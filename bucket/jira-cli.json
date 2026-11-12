@@ -1,16 +1,16 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small CLI for Jira Data Center: issues, search, time tracking, monthly report",
   "homepage": "https://github.com/nizom333/jira-cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nizom333/jira-cli/releases/download/v0.1.0/jira-cli_0.1.0_windows_amd64.zip",
-      "hash": "8e5fda5cad440981e541948bf2adec41d401c9fbe821557d88a64f16ebbdf4b2"
+      "url": "https://github.com/nizom333/jira-cli/releases/download/v0.1.1/jira-cli_0.1.1_windows_amd64.zip",
+      "hash": "72be77033281d984ba140dd493f9d0d79a18b5359d39d54ac1b7b9f9f7570319"
     },
     "arm64": {
-      "url": "https://github.com/nizom333/jira-cli/releases/download/v0.1.0/jira-cli_0.1.0_windows_arm64.zip",
-      "hash": "81203cd81a576ebb694b3fbe9f869e0ff60c27fefb9fdaa1c668cf9a19756e7f"
+      "url": "https://github.com/nizom333/jira-cli/releases/download/v0.1.1/jira-cli_0.1.1_windows_arm64.zip",
+      "hash": "9dc3b20d946f62c2a32f4335b25b61476632bcd0071fd53136ef7fc8ab164671"
     }
   },
   "bin": "jira.exe",
