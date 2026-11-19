@@ -1,28 +1,28 @@
 class JiraCli < Formula
   desc "Small CLI for Jira Data Center: issues, search, time tracking, monthly report"
   homepage "https://github.com/nizom333/jira-cli"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nizom333/jira-cli/releases/download/v0.1.1/jira-cli_0.1.1_darwin_arm64.tar.gz"
-      sha256 "bb737b2668addc4bcd33b2084d2e4a158d028ff22cac8b95671258c8935f83d6"
+      url "https://github.com/nizom333/jira-cli/releases/download/v0.2.0/jira-cli_0.2.0_darwin_arm64.tar.gz"
+      sha256 "e82f4f63ae96ed969e4f754f01da62818685d8c5d75b67d5e4ccdae7695a0d7c"
     end
     on_intel do
-      url "https://github.com/nizom333/jira-cli/releases/download/v0.1.1/jira-cli_0.1.1_darwin_amd64.tar.gz"
-      sha256 "12e011cc653fd4a76418efbb578d22e39ec44a852a6c3163e6394789dc1a6bdc"
+      url "https://github.com/nizom333/jira-cli/releases/download/v0.2.0/jira-cli_0.2.0_darwin_amd64.tar.gz"
+      sha256 "2651779a5bfa055d1ce53c3bf90924a5e4f63889051cb1370e3bbda47d40a631"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nizom333/jira-cli/releases/download/v0.1.1/jira-cli_0.1.1_linux_arm64.tar.gz"
-      sha256 "afdae1e3701e0b9f07279b1c1054b2afd3c7043527cf17d773e3740c53674e14"
+      url "https://github.com/nizom333/jira-cli/releases/download/v0.2.0/jira-cli_0.2.0_linux_arm64.tar.gz"
+      sha256 "de048b637568ad4807cafe77a8b4adc114803d2380d5c7e46e98f2d95fd22cec"
     end
     on_intel do
-      url "https://github.com/nizom333/jira-cli/releases/download/v0.1.1/jira-cli_0.1.1_linux_amd64.tar.gz"
-      sha256 "b17181caec9ddd7d8a86fe5d2b46d7ac2353c345e4eb87a904a466d606329cd0"
+      url "https://github.com/nizom333/jira-cli/releases/download/v0.2.0/jira-cli_0.2.0_linux_amd64.tar.gz"
+      sha256 "78009574701e61f6e15b18a11e108cc47fe780f02930f204e2abca124dd76b6f"
     end
   end
 
