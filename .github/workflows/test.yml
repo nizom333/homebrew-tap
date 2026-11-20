@@ -4,7 +4,7 @@ name: test
 on:
   push:
     branches: [main]
-    paths: ["Formula/**", "bucket/**", ".github/workflows/test.yml"]
+    paths: ["Formula/**", "Casks/**", "bucket/**", ".github/workflows/test.yml"]
   workflow_run:
     workflows: [update]
     types: [completed]
@@ -27,6 +27,8 @@ jobs:
           brew install nizom333/tap/jira-cli
           brew test nizom333/tap/jira-cli
           jira version
+          brew install nizom333/tap/bdv
+          bdv --version
   scoop:
     runs-on: windows-latest
     steps:
@@ -38,3 +40,5 @@ jobs:
           scoop bucket add nizom333 https://github.com/nizom333/homebrew-tap
           scoop install jira-cli
           jira version
+          scoop install bdv
+          bdv --version
