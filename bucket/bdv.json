@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nizom333/bdv/releases/download/v0.1.0/bdv_0.1.0_windows_amd64.zip",
+            "bin": [
+                "bdv.exe"
+            ],
+            "hash": "45aafa48211c20f489921d4f1148aef1d96da8a0a4b822d3d645b1c177077ac9"
+        },
+        "arm64": {
+            "url": "https://github.com/nizom333/bdv/releases/download/v0.1.0/bdv_0.1.0_windows_arm64.zip",
+            "bin": [
+                "bdv.exe"
+            ],
+            "hash": "5f6573137e984d1a8606e4c22aeec01c82a51615ba13f8dbdffb2c0f951135f1"
+        }
+    },
+    "homepage": "https://github.com/nizom333/bdv",
+    "license": "MIT",
+    "description": "Fast terminal UI viewer for the bd (beads) issue tracker"
+}
